@@ -1,0 +1,47 @@
+body {
+  background: white;
+}
+
+.container {
+  background: lightslategray;
+  width: 60%;
+  display: block;
+  margin: 30px auto;
+}
+
+h1 {
+  color: white;
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+.search-form {
+  margin: 30px;
+}
+
+.search-form-input {
+  padding: 15px 20px;
+  width: 50%;
+}
+.submit-button {
+  background: darkgray;
+  color: white;
+  padding: 15px 20px;
+  width: 15%;
+}
+.hint {
+  opacity: 0.4;
+}
+.quote {
+  margin: 30px;
+  padding: 10px 15px;
+  background: white;
+}
+footer {
+  margin: 30px;
+  color: white;
+  padding: 15px;
+}
+a {
+  color: #1c2aec;
+}
