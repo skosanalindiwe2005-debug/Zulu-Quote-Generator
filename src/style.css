@@ -28,14 +28,31 @@ h1 {
   color: white;
   padding: 15px 20px;
   width: 15%;
+  transition: all 150ms ease-in-out;
+}
+.submit-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 .hint {
   opacity: 0.4;
 }
 .quote {
-  margin: 30px;
   padding: 10px 15px;
   background: white;
+  margin: 30px;
+  display: none;
+}
+.quote strong {
+  color: #1c2aec;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.generating {
+  animation: blink 1s step-start 0s infinite;
 }
 footer {
   margin: 30px;

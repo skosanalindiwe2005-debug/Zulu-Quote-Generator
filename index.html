@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Zulu Quote Generator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -24,10 +26,7 @@
           <input type="submit" class="submit-button" />
           <div class="hint">eg: Love, Flowers, Home</div>
         </form>
-        <div class="quote">
-          Abantu abangakusizi ngalutho yibona abakumoshelayo. Kanti uma
-          ubalalela mebakucwayisa, uwena ozimoshelayo.
-        </div>
+        <div class="quote" id="quote"></div>
       </main>
       <footer>
         This AI project was coded by
@@ -45,5 +44,7 @@
         >.
       </footer>
     </div>
+
+    <script src="src/script.js"></script>
   </body>
 </html>
